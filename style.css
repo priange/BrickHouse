@@ -1,0 +1,358 @@
+#h1{
+    margin-top: 3%;
+    margin-left: 30%;
+}
+.navbar{
+    display: flex;
+   margin-left: 20%;
+   /* margin-top: -5%; */
+   margin-top: 5%;
+
+}
+#support{
+    margin-left: 3%;
+    margin-top:-5%
+}
+#shipping{
+margin-left: 3%;
+margin-top: -5%;
+}
+#contact{
+margin-left: 3%;
+margin-top: -5%;
+}
+#stores{
+margin-left: 3%;
+margin-top: -5%;
+}
+#about{
+    margin-top: -5%;
+}
+.nav2{
+    display: flex;
+}
+#catalog{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#search{
+    /* border-radius: 100px; */
+    padding: 35px 35px;
+    width:40px;
+}
+#series{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 30px;
+
+}
+#BrickHouse{
+    margin-top:5%;
+}
+.total{
+    margin-left: 70%;
+    margin-top: -23%;
+}
+
+.set1{
+    display: flex;
+}
+#star{
+    /* border: solid; */
+    /* border-radius: 30px; */
+        border-radius: 120px;
+        background-color: rgb(3, 3, 49);
+        /* width: 80px; */
+        padding:60px 60px;
+        font-size: 20px;
+        color: white;
+       
+}
+
+
+#Marvel{
+    margin-left: 1%;
+    border-radius: 120px;
+    background-color:rgb(196, 75, 75);
+   padding: 60px 60px;
+   font-size:20px ;
+   color: white;
+}
+#Avatar{
+    margin-left: 1%;
+    border-radius: 120px;
+    background-color: rgb(101, 101, 177);
+    padding: 60px 60px;
+    color: white;
+}
+.set2{
+    display: flex;
+}
+#Ninja{
+    margin-left: 1%;
+    border-radius: 120px;    
+    background-color: rgb(226, 33, 33);
+    padding:60px 60px;
+    font-size: 20px;
+}
+#mini{
+    margin-left: 1%;
+    border-radius: 120px;
+    background-color: blue;
+    padding: 60px 60px;
+    font-size: 20px;
+}
+#classic{
+    margin-left: 1%;
+    border-radius: 120px;
+    background-color: yellow;
+    padding: 60px 60px;
+    font-size: 20px;
+}
+#Duplo{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: purple;
+    padding: 60px 60px;
+
+}
+.set3{
+    display: flex;
+}
+#ideas{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color:black ;
+    padding: 60px 60px;
+color: white;
+}
+#creat{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: rgb(243, 243, 65);
+    padding: 60px 60px;
+    color: white;
+}
+#Potter{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: yellow;
+    padding: 60px 60px;
+    color: gold;
+    color:rgb(236, 206, 31);
+}
+
+.set4{
+    display: flex;
+}
+#City{
+    border-radius: 120px;
+    background-color:dark-blue;
+    padding: 60px 60px;
+    background-color: blue;
+    font-size:20px;
+}
+#Dc{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: blue;
+    padding: 60px 60px;
+    font-size: 20px;
+}
+#Disney{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: lightseagreen;
+    padding: 60px 60px;
+    font-size: 20px;
+}
+#Pixar{
+    margin-left: 3%;
+    border-radius: 120px;
+    background-color: black;
+    padding: 60px 60px;
+    font-size: 20px;
+    color: white;
+}
+#series2{
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px 20px;
+    font-size: 20px;
+    width: 60px;
+    /* display: flex; */
+/* border: 100px; */
+background-color: yellow;
+margin-left: 40%;
+/* border-radius: 80px; */
+font-size: 20px;
+/* text-align: center; */
+/* padding: 40px 40px; */
+
+}
+#send{
+    /* background-color: rgb(226, 4/8, 48); */
+    font-size: 12px;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+.down{
+    /* background-color: rgb(87, 2, 87); */
+    color: white;
+    /* margin-bottom: 10%; */
+    /* display: flex; */
+}
+#discount{
+    background-color: rgb(211, 211, 5);
+    color: white;
+    font-size: 40px;
+
+}
+#new{
+    font-size: 30px;
+    font-style: bold;
+    /* color: white; */
+}
+#they{
+    /* border-radius: 200px; */
+    background-color: purple;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#them{
+    color: white;
+    /* margin-left: 5%; */
+}
+#them2{
+color: white;
+}
+#image{
+    width: 400px;
+}
+
+#img1{
+    width:150px;
+    /* height: 150px; */
+}
+#img2{
+    /* width:150px; */
+    height: 150px;
+    margin-left: 0%;
+    /* margin-top: -3%; */
+}
+#img3{
+    /* width:150px; */
+    height:200px;
+    margin-left: 10%;
+}
+#img4{
+    /* width:150px; */
+    height:200px;
+    margin-left: 10%;
+}
+#img5{
+    width:150px;
+    height:200px;
+
+}
+#all2{
+    margin-top: 10%;
+}
+#img6{
+    width:150px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: -35%;
+}
+#img7{
+    width:200px;
+    height: 200px;
+    margin-left: 10%;
+}
+#img8{
+    width: 300px;
+    margin-left: 15%;
+}
+.many3{
+    margin-top: 10%;
+}
+#h3{
+    margin-left: 40%;
+    font-size: 30px;
+}
+#image2{
+    margin-left: 25%;
+    margin-top: -20%;
+}#image3{
+    margin-left: 38%;
+    margin-top: -18%;
+}
+#image4{
+    margin-left: 75%;
+    margin-top: -25%;
+}
+#image5{
+    margin-top: 5%;
+}
+#image6{
+    margin-left: 25%;
+    margin-top: -8%;
+}
+.group1 images{
+margin-top: -10%;
+}
+#h3{
+    margin-top: 5%;
+    margin-left: 50%;
+}
+#image7{
+    margin-left:45% ;
+    margin-top: -25%;
+}
+#image8{
+    margin-left: 70%;
+    margin-top: -25%;
+}
+#viewed{
+    margin-left: 40%;
+}
+#calender{
+margin-left: 30%;
+margin-top: -70%;
+}
+#Birthday{
+    margin-top: -30%;
+}
+#both{
+    margin-left: 70%;
+    margin-top: -20%;
+}
+#first{
+    margin-left: 40%;
+    margin-bottom:-20%;
+    /* margin-top: 10%; */
+}
+#here{
+    margin-top: 80%;
+    display: flex;
+  
+}
+#them{
+    margin-left: 5%;
+}
+#them2{
+    margin-left: 5%;
+}
+#socials{
+    margin-left: 350%;
+    margin-top: -100%;
+}
+
+
+
+
+
+
