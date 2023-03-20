@@ -1,3 +1,49 @@
+
+
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.page{
+    border: solid 5px rgb(243, 219, 219);
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+#Logo{
+    width: 23px;
+    height: 20px;
+    margin-top: 1.5%;
+    border-radius: 5px;
+    margin-right: 0.5%;
+}
+#no{
+    border-radius: 10px;
+    /* background-color: aqua; */
+    /* width: 10px; */
+    margin-left: 1%;
+    margin-top: -20%;
+    color: rgb(153, 153, 40);
+    /* background-color: rgb(192, 192, 30); */
+}
+#little{
+    /* width: 50px; */
+    /* border-radius: 10px; */
+    /* background-color:red; */
+    /* border-radius: 50px; */
+    /* background-color: aqua; */
+    margin-top: -9%;
+    margin-left: 2%;
+    color: yellow;
+   
+    /* background-color: yellow; */
+    /* font-size: 5px; */
+}
+#image1{
+    margin-top: 15%;
+}
+
 #h1{
     margin-top: 3%;
     margin-left: 30%;
@@ -7,12 +53,47 @@
    margin-left: 20%;
    /* margin-top: -5%; */
    margin-top: 5%;
+   font-size: 25px;
 
+}
+#search{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 30%;
+    padding: 0 auto;
+justify-content: center;
+}
+#England{
+    margin-left: 25%;
+    margin-top: -5%;
 }
 #support{
     margin-left: 3%;
     margin-top:-5%
 }
+#thetop{
+   width: 150px;
+   height:80px;
+}
+#icons{
+    margin-left:40%;
+    display: flex;
+    margin-top: 2%;
+    /* justify-content: space-between; */
+}
+#user{
+margin-left: 5%;
+}
+/* #Range{
+    justify-content: center;
+    color: yellow; */
+/* } */
+   #woman{
+width:500px;
+height:300px;
+margin-top: -5%;
+   }
 #shipping{
 margin-left: 3%;
 margin-top: -5%;
@@ -28,161 +109,251 @@ margin-top: -5%;
 #about{
     margin-top: -5%;
 }
+#viewed{
+    margin-top: 3%;
+    margin-left:-10%;
+}
 .nav2{
     display: flex;
+    background-color: yellow;
 }
 #catalog{
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 15%;
+    margin-top: 1%;
+    border-radius: 50px;
+    background-color: rgb(221, 221, 105);
+    width:60px;
+    height: 20px;
+    text-align: center;
+    padding: 5px 5px;
+    /* margin-top: -1%; */
+    /* text-size-adjust: 3px; */
 }
 #search{
     /* border-radius: 100px; */
     padding: 35px 35px;
     width:40px;
 }
+#ranger{
+   margin-left: 5%;
+   color:yellow;
+    /* justify-content: center; */
+   /* range-color: yellow; */
+}
+#range1{
+    border-color: yellow;
+    color: yellow;
+}
+#range2{
+/* margin-left: 65%; */
+/* margin-top: -40%; */
+margin-left: 20%;
+/* margin-top: -5%; */
+    border-color: yellow;
+    color:yellow;
+}
 #series{
     display: flex;
     text-align: center;
-    margin-left: 25%;
+    /* margin-left: 25%; */
     margin-top: 10%;
     font-size: 30px;
-
+    justify-content: center;
+/* size-adjust: center; */
 }
 #BrickHouse{
-    margin-top:5%;
+    margin-top:1.5%;
+    
 }
 .total{
     margin-left: 70%;
-    margin-top: -23%;
+    border: solid 2px ;
+    width: 300px;
+    margin-top: -6%;
+    /* text-align: 3%; */
+    /* text-align: justify; */
+    /* margin-left: 3%; */
+    /* text-align: center; */
 }
 
-.set1{
-    display: flex;
-}
+
+
 #star{
     /* border: solid; */
     /* border-radius: 30px; */
-        border-radius: 120px;
+        border-radius: 20px;
         background-color: rgb(3, 3, 49);
         /* width: 80px; */
-        padding:60px 60px;
+        padding:60px 100px;
         font-size: 20px;
         color: white;
+        
        
 }
 
 
 #Marvel{
     margin-left: 1%;
-    border-radius: 120px;
+    border-radius: 20px;
     background-color:rgb(196, 75, 75);
-   padding: 60px 60px;
+   padding: 60px 100px;
    font-size:20px ;
    color: white;
 }
 #Avatar{
     margin-left: 1%;
-    border-radius: 120px;
+    border-radius: 20px;
     background-color: rgb(101, 101, 177);
-    padding: 60px 60px;
+    padding: 60px 100px;
     color: white;
+}
+.set1{
+    display: flex;
+    justify-content: center;
 }
 .set2{
     display: flex;
+    justify-content: center;
 }
 #Ninja{
     margin-left: 1%;
-    border-radius: 120px;    
+    border-radius: 20px;    
     background-color: rgb(226, 33, 33);
-    padding:60px 60px;
+    padding: 60px 100px;
     font-size: 20px;
+    
+    /* margin-top: -3%; */
+}
+#JAGO{
+margin-top: -3%;
 }
 #mini{
     margin-left: 1%;
-    border-radius: 120px;
+    border-radius: 20px;
     background-color: blue;
-    padding: 60px 60px;
+    padding: 60px 100px;
     font-size: 20px;
+}
+#MINI{
+    margin-top: -3%;
 }
 #classic{
     margin-left: 1%;
-    border-radius: 120px;
+    border-radius: 20px;
     background-color: yellow;
-    padding: 60px 60px;
+    padding: 60px 100px;
     font-size: 20px;
 }
+#CLASSIC{
+    margin-top: -2.5%;
+}
 #Duplo{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 1%;
+    border-radius: 20px;
     background-color: purple;
-    padding: 60px 60px;
+    padding: 60px 100px;
 
+}
+#DUPLO{
+    margin-top: -2%;
 }
 .set3{
     display: flex;
+    justify-content: center;
 }
 #ideas{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 1%;
+    border-radius: 20px;
     background-color:black ;
-    padding: 60px 60px;
+    padding: 60px 100px;
 color: white;
+height: 35px;
+}
+#IDEAS{ 
+    margin-top: -2.5%; 
 }
 #creat{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 1%;
+    border-radius: 20px;
     background-color: rgb(243, 243, 65);
-    padding: 60px 60px;
+    padding: 60px 100px;
     color: white;
+    /* margin-left: 4%; */
+}
+#CREAT{
+    margin-top: -3%;
 }
 #Potter{
-    margin-left: 3%;
-    border-radius: 120px;
-    background-color: yellow;
-    padding: 60px 60px;
-    color: gold;
+    margin-left: 1%;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 33);
+    padding: 60px 100px;
+    color: rgb(7, 6, 0);
     color:rgb(236, 206, 31);
+}
+#POTTER{
+    margin-top: -2.5%;
 }
 
 .set4{
     display: flex;
+    justify-content: center;
 }
 #City{
-    border-radius: 120px;
+    margin-left:1%;
+    border-radius: 20px;
     background-color:dark-blue;
-    padding: 60px 60px;
+    padding: 60px 100px;
     background-color: blue;
     font-size:20px;
 }
+#CITY{
+    margin-top: -2.5%;
+}
 #Dc{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 1%;
+    border-radius: 20px;
     background-color: blue;
-    padding: 60px 60px;
+    padding: 60px 100px;
     font-size: 20px;
+    height: 20px;
+    width: 50px;
+}
+#DC{
+    margin-top: -2.5%;
 }
 #Disney{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 2%;
+    border-radius: 20px;
     background-color: lightseagreen;
-    padding: 60px 60px;
+    padding: 60px 100px;
     font-size: 20px;
+    height: 20px;
+}
+#DISNEY{
+    margin-top: -2.5%;
 }
 #Pixar{
-    margin-left: 3%;
-    border-radius: 120px;
+    margin-left: 1%;
+    border-radius: 20px;
     background-color: black;
-    padding: 60px 60px;
-    font-size: 20px;
+    padding: 60px 100px;
+    font-size: 15px;
     color: white;
+width: 60px;
+height: 20px;
+}
+#PIXAR{
+    margin-top: -2%;
 }
 #series2{
-    margin-left: 3%;
-    border-radius: 10px;
+    /* align-self: 2%; */
+    /* margin-right: 5%; */
+    border-radius: 50px;
     background-color: black;
-    padding: 20px 20px;
+    padding: 10px 10px;
     font-size: 20px;
-    width: 60px;
+    width: 100px;
     /* display: flex; */
 /* border: 100px; */
 background-color: yellow;
@@ -192,6 +363,10 @@ font-size: 20px;
 /* text-align: center; */
 /* padding: 40px 40px; */
 
+}
+#birth{
+    width: 50px;
+    height: 50px;
 }
 #send{
     /* background-color: rgb(226, 4/8, 48); */
@@ -229,95 +404,182 @@ font-size: 20px;
 #them2{
 color: white;
 }
-#image{
-    width: 400px;
+.image1{
+    /* width: 400px; */
+    margin-top: 10%;
 }
 
 #img1{
-    width:150px;
-    /* height: 150px; */
+    width:200px;
+    height: 200px;
+    margin-right: 5%;
+    /* margin-top: 5%; */
+    /* margin-top: -5%; */
 }
 #img2{
-    /* width:150px; */
-    height: 150px;
-    margin-left: 0%;
-    /* margin-top: -3%; */
+    width:250px;
+    height: 210px;
+    margin-left: -2%;
+    /* margin-left: 0%; */
+    margin-top: -40%;
 }
 #img3{
     /* width:150px; */
     height:200px;
     margin-left: 10%;
+    margin-top: 30%;
+    /* margin-left: -3%; */
 }
 #img4{
-    /* width:150px; */
-    height:200px;
-    margin-left: 10%;
-}
-#img5{
-    width:150px;
+    width: 200px;
     height:200px;
 
 }
-#all2{
-    margin-top: 10%;
+#img5{
+    width:200px;
+    height:250px;
+
 }
-#img6{
-    width:150px;
-    height: 250px;
+#all2{
+    margin-top: -3%;
+    margin-left: 5%;
+    /* display: grid; */
+    /* /* /*  */
+    /* grid-template-columns: repeat(4,1fr); */ */
+}
+
+/* /*  */
+/* .theseimages{ */
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,1fr);    */
+/* } */
+/* 
+@media(max-width:600px){
+    .theseimages{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);    */ */
+    /* } */ */
+    
+/* } */
+#discounts{
+    display: flex;
+
+
+}
+#Year{
+    width: 200px;
+    height: 180px;
     margin-left: 10%;
-    margin-top: -35%;
+margin-top: -42%;
+}
+#word{
+    display: flex;
+font-size: 5px;
+
+    /* justify-content:d; */
+}
+#avata{
+    width: 200px;
+    height: 200px;
+    margin-top: -2%;
+}
+/* #first{
+    display: flex;
+} */
+
+
+
+#img6{
+    width:200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: -50%;
 }
 #img7{
     width:200px;
-    height: 200px;
+    height: 250px;
     margin-left: 10%;
+    margin-top: -5%;
 }
 #img8{
     width: 300px;
+    height: 300px;
     margin-left: 15%;
 }
 .many3{
     margin-top: 10%;
+    /* margin-left: 20%; */
 }
 #h3{
     margin-left: 40%;
     font-size: 30px;
 }
-#image2{
-    margin-left: 25%;
-    margin-top: -20%;
-}#image3{
-    margin-left: 38%;
-    margin-top: -18%;
+
+
+.image2{
+    
+    margin-left: 27%;
+    /* margin-top: -36%; */
+    margin-top: -8%;
+    
 }
-#image4{
-    margin-left: 75%;
-    margin-top: -25%;
+.image3{
+    margin-left: 50%;
+    margin-top: -40%;
 }
+
+.image4{
+    margin-left:80%;
+    margin-top: -24%;
+    width: 5px;
+}
+
 #image5{
     margin-top: 5%;
+    margin-top: 4%;
 }
 #image6{
     margin-left: 25%;
     margin-top: -8%;
 }
-.group1 images{
-margin-top: -10%;
+#img6{
+    margin-left: 1%;
+    width: 200px;
+    height: 250px;
+    
 }
 #h3{
-    margin-top: 5%;
+    margin-top:35%;
     margin-left: 50%;
 }
 #image7{
     margin-left:45% ;
-    margin-top: -25%;
-}
+    margin-top: -27%;
+    }
+    #Crub{
+        margin-left: 14%;
+        margin-top: 3%;
+    }
+
 #image8{
-    margin-left: 70%;
+    margin-left: 75%;
     margin-top: -25%;
+    width: 20px;
+    /* height: 30px; */
+}
+#img8{
+    width: 200px;
+    height: 200px;
+}
+#p8{
+    margin-left: 15%;
+}
+#p3{
+    margin-left: 15%;
 }
 #viewed{
     margin-left: 40%;
+    /* margin-top: -1%; */
 }
 #calender{
 margin-left: 30%;
@@ -325,31 +587,106 @@ margin-top: -70%;
 }
 #Birthday{
     margin-top: -30%;
+    margin-right:35%;
+}
+#birth{
+margin-right: 10%;
+width: 200px;
+height: 200px;
+margin-top: 15%;
 }
 #both{
     margin-left: 70%;
     margin-top: -20%;
 }
+/* #avat{
+    width: 20px;
+    height: 50px;
+} */
+
+
 #first{
-    margin-left: 40%;
-    margin-bottom:-20%;
+    width: 200px;
+    height: 200px;
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-bottom:-38%; 
+
+
+    /* width: 20px;
+    height: 20px;
+   
+   
+    /* display: flex; */
     /* margin-top: 10%; */
 }
+#E-mail{
+    margin-left: 10%;
+}
 #here{
-    margin-top: 80%;
+    margin-top: 10%;
     display: flex;
-  
+  margin-left:-85% ;
+  /* font-size: 15px; */
+}
+#Brickbase{
+margin-top: 4%;
+}
+#logo2{
+width: 20px;
+height: 19px;
+margin-top: 4.5%;
+border-radius: 5px;
+margin-right: 0.5%;
+}
+#policy{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+#cookies{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+#copy{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 20px;
 }
 #them{
     margin-left: 5%;
+    font-size: 20px;
 }
 #them2{
     margin-left: 5%;
+    font-size: 20px;
 }
 #socials{
-    margin-left: 350%;
-    margin-top: -100%;
+    margin-left: 65%;
+    margin-top: -62%;
 }
+#word{
+    margin-top: -20%;
+    /* margin-right: 10%; */
+    font-size: 20px;
+    /* background-color: black; */
+}
+.many3{
+    margin-top: -32%;
+}
+.down{
+    font-size: 20px;
+}
+#payments{
+    border-radius: 10px;
+}
+
+
+      
+      
+
+ 
 
 
 
